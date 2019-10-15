@@ -150,7 +150,7 @@ input, select, textarea {
 
 body, input, select, textarea {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: large;
     line-height: 2
 }
@@ -2037,11 +2037,12 @@ blockquote {
 
 /* Box */
 
-	.box {
-		border: solid 2px;
-		margin-bottom: 2rem;
-		padding: 1.5rem;
-	}
+    .box {
+        border: solid 2px;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-width: 0.2em;
+    }
 
 		.box > :last-child,
 		.box > :last-child > :last-child,
