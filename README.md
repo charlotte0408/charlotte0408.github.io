@@ -1,4 +1,5 @@
 ## Resume Website
 
-Hi, [here](charlotte0408.github.io) is my website, where I present my passion for data science and professional experiences with data. I used HTML/CSS, and JavaScript for coding the website.
+Hi, [here](charlotte0408.github.io) is my website, where I present my passion for data science and professional experiences with data. <br>
+I used HTML/CSS, and JavaScript for coding the website. <br>
 Please feel free to check it out and to learn about me more. 
