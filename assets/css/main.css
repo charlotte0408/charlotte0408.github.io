@@ -184,10 +184,10 @@ body, input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-weight: 500;
+		font-weight: 300;
 		line-height: 1;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		margin: 0 0 1rem 0;
 	}
 
@@ -204,7 +204,7 @@ body, input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		line-height: 1.3;
 		margin: 0 0 1.25rem 0;
 	}
@@ -2040,8 +2040,8 @@ blockquote {
 
     .box {
         border: solid 2px;
-        margin-bottom: 2rem;
-        padding: 2rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
         border-width: 0.2em;
     }
 
@@ -2622,7 +2622,7 @@ blockquote {
 
         .image.fit {
             display: block;
-            margin: 2.5rem 0;
+            margin: 1.5rem 0;
             width: 100%
         }
 
@@ -3323,7 +3323,7 @@ blockquote {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		/* min-height: 20vh; */
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3399,7 +3399,7 @@ blockquote {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 3.5rem;
 			line-height: 1;
 		}
 
@@ -3587,7 +3587,7 @@ blockquote {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			visibility: visible;
 		}
 
@@ -3638,7 +3638,7 @@ blockquote {
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 66rem;
 		z-index: 2;
 	}
 
@@ -3729,7 +3729,7 @@ blockquote {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
-					font-weight: 200;
+					font-weight: normal;
 				}
 
 					#nav ul.links li a:hover {
@@ -3743,6 +3743,7 @@ blockquote {
 
 					#nav ul.links li.active a {
 						color: #1e252d;
+						font-weight: 100;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -3776,7 +3777,7 @@ blockquote {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 66rem;
 		z-index: 2;
 	}
 
@@ -3803,13 +3804,13 @@ blockquote {
             }
 
             #main > .post header.major > h1, #main > .post header.major h2 {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 line-height: 1.1;
                 margin: 0 0 2rem 0;
                 color: #42413d
             }
             #main > .post h2 {
-								font-size: 1.75rem;
+								font-size: 1.25rem;
 								color: #42413d
             }
 
@@ -3883,7 +3884,7 @@ blockquote {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 2.5rem;
 				width: 50%;
 			}
 
@@ -3986,7 +3987,7 @@ blockquote {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 66rem;
 		z-index: 2;
 	}
 
